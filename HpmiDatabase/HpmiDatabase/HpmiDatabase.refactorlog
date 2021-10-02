@@ -14,4 +14,67 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Height" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="48c67fab-af18-4bfe-b8e7-a4ea470be2c3" ChangeDateTime="10/02/2021 05:39:45">
+    <Property Name="ElementName" Value="[dbo].[Characters].[UadateDateTime]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Characters]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UpdateDateTime" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dfec36d7-6835-4f27-9769-64df1bc13f61" ChangeDateTime="10/02/2021 05:46:12">
+    <Property Name="ElementName" Value="[dbo].[Characters]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[M_Characters]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="51e31403-0855-41f3-9e58-19db987ee50a" ChangeDateTime="10/02/2021 05:46:37">
+    <Property Name="ElementName" Value="[dbo].[Teams]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[M_Teams]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="21e03807-a6b6-4b48-9eab-97f73f172ef3" ChangeDateTime="10/02/2021 06:11:09">
+    <Property Name="ElementName" Value="[dbo].[FK_Characters_Teams]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[M_Characters]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_M_Characters_Teams]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d95e42d9-9fbb-4206-9856-146342a4b8ef" ChangeDateTime="10/02/2021 06:13:09">
+    <Property Name="ElementName" Value="[dbo].[M_VoiceActor].[BirthDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[M_VoiceActor]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Birthdate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="645e752f-30d5-4401-86bb-162110dd0e39" ChangeDateTime="10/02/2021 06:17:06">
+    <Property Name="ElementName" Value="[dbo].[T_Comics].[a]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[T_Comics]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ReleaseDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6c242f8a-d59c-4e04-9c78-b50960621bfd" ChangeDateTime="10/02/2021 06:28:08">
+    <Property Name="ElementName" Value="[dbo].[M_Characters].[BirthDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[M_Characters]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="KanaMcName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ad838d59-7810-47ec-a909-41a800d083e2" ChangeDateTime="10/02/2021 06:35:45">
+    <Property Name="ElementName" Value="[dbo].[M_Teams-Characters_Belonging].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[M_Teams-Characters_Belonging]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TeamId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="810303b5-7937-4216-bd85-328535d78a03" ChangeDateTime="10/02/2021 06:41:39">
+    <Property Name="ElementName" Value="[dbo].[M_Characters].[Area]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[M_Characters]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AreaId" />
+  </Operation>
 </Operations>

@@ -59,12 +59,18 @@
     <Folder Include="Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Tables\Characters.sql" />
+    <Build Include="Tables\M_Characters.sql" />
+    <Build Include="Tables\T_CDs.sql" />
+    <Build Include="Tables\T_Music.sql" />
+    <Build Include="Tables\M_Area.sql" />
+    <Build Include="Tables\M_VoiceActor.sql" />
+    <Build Include="Tables\T_Comics.sql" />
+    <Build Include="Tables\M_Teams-Characters_Belonging.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="HpmiDatabase.refactorlog" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Tables\Teams.sql" />
+    <Build Include="Tables\M_Teams.sql" />
   </ItemGroup>
 </Project>
